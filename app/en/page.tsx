@@ -13,7 +13,7 @@ import SmallSubtitle from './components/subtitle/SmallSubtitle'
 export const metadata: Metadata = {
    title: 'Ondřej Chládek',
    description:
-      'Full Stack Developer and UI Designer',
+      'Full Stack Developer',
 }
 
 export default function Home() {

@@ -13,7 +13,7 @@ import SmallSubtitle from './components/subtitle/SmallSubtitle'
 export const metadata: Metadata = {
    title: 'Ondřej Chládek',
    description:
-      'Full Stack Developer and UI Designer', 
+      'Full Stack Developer', 
 }
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
                <div className="mb-10 xl:mb-12">
                   <SmallSubtitle
                      title="Moje služby"
-                     description="I provide comprehensive development services, encompassing back-end and front-end programming, UI/UX design, working with leading-edge technologies such as React, Node.js, and TypeScript. "
+                     description="Poskytuji komplexní vývojářské služby, zahrnující programování front-end i back-end částí webových a mobilních aplikací včetně návrhu samotné aplikace a vhodného UI/UX designu. Pracuji s nejmodernějšími technologiemi, jako jsou React, Node.js, Next.js a TypeScript."
                   />
                   {/* FlipCard section  */}
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
@@ -33,15 +33,15 @@ export default function Home() {
                         {
                            id: 1, title: "Full Stack Development", data: [{
                               id: 1,
-                              title: 'Front-end and back-end programming',
+                              title: 'Front-end and back-end technologie, SSR, serverless, nativní aplikace',
                            },
                            {
                               id: 2,
-                              title: 'Proficient in React, Node.js, Express.js and MongoDB',
+                              title: 'Technologie React, Node.js, Next.js, React Query a MongoDB',
                            },
                            {
                               id: 3,
-                              title: 'Developing responsive and efficient web applications',
+                              title: 'Responzivní a efektivní webové aplikace',
                            }],
                            svg:<svg
                            width="32"
@@ -59,15 +59,15 @@ export default function Home() {
                         {
                            id: 2, title: "UI/UX Design", data: [{
                               id: 1,
-                              title: 'Ensuring user-centric design practices',
+                              title: 'Uživatelsko-centrický návrh designu',
                            },
                            {
                               id: 2,
-                              title: 'Balancing aesthetics and functionality',
+                              title: 'Vyvážení vizuální stránky a funkcionality',
                            },
                            {
                               id: 3,
-                              title: 'Steering user behavior through strategic design',
+                              title: 'Směrování chování uživatele prostřednictvím strategického designu',
                            }],
                            svg:<svg
                            width="32"
@@ -89,17 +89,17 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 3, title: "Web Application Development", data: [{
+                           id: 3, title: "Vývoj vebových aplikací", data: [{
                               id: 1,
-                              title: 'Expertise in React/Node.js',
+                              title: 'Analýza potřeb a návrh konceptu',
                            },
                            {
                               id: 2,
-                              title: 'From SPAs to extensive business applications',
+                              title: 'Výběr vhodné technologie, návrh funkcinalit a UI/UX',
                            },
                            {
                               id: 3,
-                              title: 'Ensuring cross-platform functionality',
+                              title: 'Funkčnost aplikace napříč platformami',
                            }],
                            svg:<svg
                            width="28"
@@ -119,17 +119,17 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 4, title: "Website Development", data: [{
+                           id: 4, title: "Tvorba webových stránek", data: [{
                               id: 1,
-                              title: 'HTML, CSS, JavaScript focused development',
+                              title: 'Kódování webů a šablon v HTML, CSS, JavaScript',
                            },
                            {
                               id: 2,
-                              title: 'Responsive and high performance websites',
+                              title: 'Rychlé a responzivní webové stránky',
                            },
                            {
                               id: 3,
-                              title: 'Custom solutions to fit your needs',
+                              title: 'Řešení na míru dle vašich potřeb',
                            }],
                            svg:<svg
                            width="32"
@@ -153,17 +153,17 @@ export default function Home() {
                         </svg>
                         },
                         {
-                           id: 5, title: "Node.js Development", data: [{
+                           id: 5, title: "Vývoj Node.js server", data: [{
                               id: 1,
-                              title: 'Building scalable and high-performance solutions',
+                              title: 'Škálovatelné řešení s vysokým výkonem',
                            },
                            {
                               id: 2,
-                              title: 'Utilizing efficient and lightweight run-time environment',
+                              title: 'Efektivní a nenáročné běhové prostředí',
                            },
                            {
                               id: 3,
-                              title: 'Ensuring fast and scalable network applications',
+                              title: 'Vývoj v JavaScriptu na serverové i klientské straně',
                            }],
                            svg:<svg
                            width="30"
@@ -179,17 +179,17 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 6, title: "Industrial Automation Programming", data: [{
+                           id: 6, title: "Programování průmyslové automatizace", data: [{
                               id: 1,
-                              title: 'Streamlining industrial processes with sophisticated programming techniques',
+                              title: 'Zefektivnění průmyslových procesů',
                            },
                            {
                               id: 2,
-                              title: 'Custom Arduino solutions',
+                              title: 'Řešení pro Arduino na míru',
                            },
                            {
                               id: 3,
-                              title: 'Real-time automated monitoring',
+                              title: 'Monitoring procesů v reálném čase',
                            }],
                            svg:<svg
                            width="29"
@@ -229,8 +229,8 @@ export default function Home() {
                <div id="experience" className="mt-12 md:mt-12 lg:mt-14 xl:mt-16 pt-5">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
-                        title="Experience"
-                        description="With many years in the industry, I have amassed extensive experience in web development, automation programming, UI/UX design, and marketing management, working both individually and as part of a team."
+                        title="Zkušenosti"
+                        description="Postupem let v oboru jsem získal zkušenosti s vývojem webových aplikací, UI/UX designem, řízením marketingu i programováním průmyslových automatizací, a to jak individuálně, tak jako součást týmu."
                      />
                   </div>
                   <Experience />
@@ -241,7 +241,7 @@ export default function Home() {
                      Portfolio
                   </h2>
                   <p className="md:max-w-[438px] text-center text-base text-base-content/60 mx-auto mt-4">
-                     My portfolio is diverse and includes numerous websites and applications, most of them coded from scratch, along with templates created from various design tools, including Figma.
+                  Moje portfolio je rozmanité a obsahuje mnoho webových stránek a aplikací, většinu z nich jsem kódoval od samotného základu, a k tomu šablony vytvořené pomocí různých nástrojů pro design, jako například Figma.
                   </p>
                   <PortfolioCards />
                </div>

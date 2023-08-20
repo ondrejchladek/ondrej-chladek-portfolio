@@ -20,7 +20,7 @@ export default function othersLayout({
             <div className="flex items-start gap-6 relative">
                {/* left sidebar  */}
                <div
-                  className={`pt-3 w-[300px] glow-on-hover shrink-0 bg-base-100 rounded-xl desktop_sidebar sticky top-7 pb-3 mb-[1.8rem] z-10`}
+                  className={`pt-3 w-[300px] shrink-0 bg-base-100 rounded-xl desktop_sidebar sticky top-7 pb-3 mb-[1.8rem] z-10`}
                >
                   <div className="overflow-y-auto scrollbarStyle h-[calc(100vh-3.3rem)]">
                      <SideBar />
@@ -33,7 +33,7 @@ export default function othersLayout({
                </div>
                {/* Right sidebar */}
                <div
-                  className={`min-w-[88px] glow-on-hover max-w-[88px] h-[calc(100vh-1.8rem)] bg-base-100 py-[2.25rem] rounded-xl desktop_sidebar scrollbarStyle sticky top-7 mb-[1.8rem] z-10`}
+                  className={`min-w-[88px] max-w-[88px] h-[calc(100vh-1.8rem)] bg-base-100 py-[2.25rem] rounded-xl desktop_sidebar scrollbarStyle sticky top-7 mb-[1.8rem] z-10`}
                >
                   <RightNavbar />
                </div>

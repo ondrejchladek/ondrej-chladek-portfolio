@@ -19,12 +19,12 @@ module.exports = {
      // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
      domains: [
        {
-         domain: 'localhost/en',
+         domain: '/en',
          defaultLocale: 'en',
          locales: ['en']
        },
        {
-         domain: 'localhost/cs',
+         domain: '/cs',
          defaultLocale: 'cs',
          locales: ['cs']
        },
