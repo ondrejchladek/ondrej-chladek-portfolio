@@ -89,7 +89,7 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 3, title: "Vývoj vebových aplikací", data: [{
+                           id: 3, title: "Vývoj webových aplikací", data: [{
                               id: 1,
                               title: 'Od analýzy potřeb a návrh konceptu aplikace po její spuštění',
                            },
