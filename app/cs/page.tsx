@@ -179,13 +179,13 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 6, title: "Programování průmyslové automatizace", data: [{
+                           id: 6, title: "Průmyslová automatizace", data: [{
                               id: 1,
-                              title: 'Zefektivnění průmyslových procesů',
+                              title: 'Software pro průmyslovou automatizaci procesů',
                            },
                            {
                               id: 2,
-                              title: 'Řešení na míru na platformě Arduino',
+                              title: 'Řešení na míru na platformách Arduino a Raspberry Pi',
                            },
                            {
                               id: 3,

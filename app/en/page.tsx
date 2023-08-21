@@ -179,13 +179,13 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 6, title: "Industrial Automation Programming", data: [{
+                           id: 6, title: "Industrial Automation", data: [{
                               id: 1,
                               title: 'Streamlining industrial processes with sophisticated programming techniques',
                            },
                            {
                               id: 2,
-                              title: 'Custom Arduino solutions',
+                              title: 'Custom Arduino and Raspberry Pi solutions',
                            },
                            {
                               id: 3,
