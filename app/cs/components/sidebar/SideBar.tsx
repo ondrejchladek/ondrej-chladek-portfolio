@@ -212,7 +212,7 @@ const content = [
    },
    {
       title: 'Jazyky:',
-      value: 'English (B2), Czech',
+      value: 'angličtina (B2), čeština',
    },
    {
       title: 'Dostupnost:',
