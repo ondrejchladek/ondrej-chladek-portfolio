@@ -7,7 +7,7 @@ const Banner = () => {
    return (
       <><div className="bg-[url('/bg.png')] bg-no-repeat bg-center bg-cover max-h-[492px] bg-base-100 p-6 sm:p-10 xl:pr-7 xl:pl-16 rounded-xl flex items-center justify-center md:justify-between">
          <div className="w-full md:max-w-[260px] lg:max-w-[440px]">
-            <h1 className="max-w-[400px] text-4xl sm:mx-auto md:mx-auto lg:text-5xl xl:text-[57px] font-semibold text-base-content text-center md:text-start leading-10 xl:!leading-[66px]">
+            <h1 className="max-w-[400px] text-4xl sm:mx-auto lg:text-5xl xl:text-[57px] font-semibold text-base-content text-center md:text-start leading-10 xl:!leading-[66px]">
                Vize přepsané<br />do precizního kódu
             </h1>
             <p className="mt-4 mb-6 xl:my-6 text-base xl:text-lg text-base-content/60 text-center md:text-start leading-6 xl:leading-7">
