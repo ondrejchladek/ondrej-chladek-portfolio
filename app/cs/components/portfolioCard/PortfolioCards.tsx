@@ -77,7 +77,7 @@ const portfolioMenu = [
    },
    {
       id: 4,
-      title: 'Design UI/UX',
+      title: 'UI/UX design',
    },
 ]
 
@@ -141,7 +141,7 @@ const data = [
    {
       id: 9,
       src: '/astaxanthin.jpg',
-      category: 'Design UI/UX',
+      category: 'UI/UX design',
       project: 'Astaxanthin',
       desc: 'Tvorba UI/UX designu a digitálních aktiv pro doplněk stravy Astaxanthin.',
    },

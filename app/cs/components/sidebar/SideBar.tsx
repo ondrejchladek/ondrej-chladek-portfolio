@@ -102,7 +102,7 @@ const SideBar = () => {
          </div>
          {/* extra skills */}
          <div className="border-b border-base-content/10 py-6">
-            <p className="text-base text-base-content">Něco dalšího k tomu</p>
+            <p className="text-base text-base-content">Další technologie</p>
             <div className="flex flex-wrap gap-2 mt-5">
                {extraSkills.map((item, index) => (
                   <p

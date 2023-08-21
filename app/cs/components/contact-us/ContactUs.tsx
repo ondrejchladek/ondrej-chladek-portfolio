@@ -97,7 +97,7 @@ export const ContactUs = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-base-content">Země:</p>
                         <span className="text-sm text-base-content/60">
-                           Czech Republic
+                           Česká republika 
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
