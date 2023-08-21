@@ -139,23 +139,23 @@ export default MobileNavbar
 
 const NavData = [
    {
-      title: 'Home',
+      title: 'Úvod',
       link: '#home',
    },
    {
-      title: 'Services',
+      title: 'Služby',
       link: '#service',
    },
    {
-      title: 'Experience',
+      title: 'Zkušenosti',
       link: '#experience',
    },
    {
-      title: 'Projects',
+      title: 'Projekty',
       link: '#portfolio',
    },
    {
-      title: 'Contact',
+      title: 'Kontakt',
       link: '#contact',
    },
 ]

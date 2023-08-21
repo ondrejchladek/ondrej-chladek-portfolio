@@ -42,23 +42,23 @@ export default Experience
 const ExperienceData = [
    {
       company: 'Retailys s.r.o.',
-      time: 'Jan 2022 - now',
-      post: 'Full Stack Developer',
+      time: 'Leden 2022 - nyní',
+      post: 'Full Stack vývojář',
       description:
-         'In my position as a Full Stack Developer at Retailys s.r.o., I have been actively engaged in developing both front-end and back-end functionalities. Utilizing languages such as JavaScript, HTML, CSS, PHP and Javascript, I have contributed to building fast user interfaces with reliable server-side logic. This position has allowed me to be involved in all stages of web development.',
+         'V mé pozici full stack vývojáře ve společnosti Retailys s.r.o. jsem se aktivně podílel na vývoji funkcionalit jak na front-endu, tak na back-endu. Nejčastěji jsem používal jazyky JavaScript, HTML, CSS a PHP a spolupracoval jsem na výstavbě nejrůznějších uživatelských rozhraní. Tato pozice mi umožnila zapojit se do všech fází vývoje webových aplikací.',
    },
    {
       company: 'Inspirit Energy s.r.o.',
-      time: 'Jan 2016 - now',
-      post: 'Full Stack Developer',
+      time: 'Leden 2016 - nyní',
+      post: 'Full Stack vývojář, UI/UX designer',
       description:
-         'Utilizing skill sets in JavaScript, React, Node.js, Tailwind and PHP, I create intuitive interfaces that enhance end-user experience. On the server-side, I ensure robust functionality and diligently maintain databases. Guiding the project from initial design to final deployment stages, my role necessitates a strong synergy of technical knowledge, problem-solving, and strategic planning.',
+         'Použitím dovedností v JavaScriptu, Reactu, Node.js, Tailwind a PHP vytvářím intuitivní webová rozhraní, která zlepšují uživatelský zážitek a na serverové straně se starám o robustní funkčnost, spolehlivost a bezpečnost. Ve své roli v této společnosti řídím obvykle projekt od počátečního návrhu až po konečné fáze nasazení a moje role spojuje užití technických znalostí, schopnosti řešení problémů a strategického plánování.',
    },
    {
       company: 'Neologic s.r.o.',
-      time: 'Dec 2020 - Apr 2022',
-      post: 'Lead Front-End Developer',
+      time: 'Prosinec 2020 - Duben 2022',
+      post: 'Front-end vývojář',
       description:
-         'As Lead Front-End Developer at Neologic s.r.o, I coded intricated Figma designs into responsive web interfaces using HTML, CSS, and JavaScript. My responsibilities included creating intuitive elements, optimizing UX, and ensuring seamless functionality across various platforms.',
+         'Náplní mojí činnosti na pozici vedoucího front-end vývojáře ve společnosti Neologic s.r.o. bylo převážně kódování webových šablon z nástroje Figma pomocí HTML, CSS a JavaScriptu. Mezi mé povinnosti patřilo vytváření intuitivních prvků, optimalizace UX a zajišťování bezproblémové funkčnosti klientských webů na různých platformách.',
    },
 ]

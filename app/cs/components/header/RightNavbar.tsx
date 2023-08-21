@@ -46,7 +46,7 @@ export default RightNavbar
 
 const NavData = [
    {
-      title: 'Home',
+      title: 'Úvod',
       link: '#home',
       icon: (
          <svg
@@ -69,7 +69,7 @@ const NavData = [
       ),
    },
    {
-      title: 'Services',
+      title: 'Služby',
       link: '#service',
       icon: (
          <svg
@@ -91,7 +91,7 @@ const NavData = [
       ),
    },
    {
-      title: 'Experience',
+      title: 'Zkušenosti',
       link: '#experience',
       icon: (
          <svg
@@ -117,7 +117,7 @@ const NavData = [
       ),
    },
    {
-      title: 'Projects',
+      title: 'Projekty',
       link: '#portfolio',
       icon: (
          <svg
@@ -137,7 +137,7 @@ const NavData = [
       ),
    },
    {
-      title: 'Contact',
+      title: 'Kontakt',
       link: '#contact',
       icon: (
          <svg

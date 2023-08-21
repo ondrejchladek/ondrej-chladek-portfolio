@@ -15,30 +15,30 @@ export const ContactUs = () => {
     emailjs.sendForm('service_9zhe3nd', 'template_245fkus', form.current, '88gi5waSnLISSIjZZ')
       .then((result) => {
          console.log(result.text)
-         setMessage("Email was successfully sent!")
+         setMessage("E-mail byl úspěšně odeslán!")
          form.current!.reset()
       }, (error) => {
           console.log(error.text)
-          setMessage("Failed to send email. Please try again later.")
+          setMessage("Nepodařilo se odeslat e-mail. Prosím zkuste to znovu později.")
       })
    
   }
    return (
       <section className="container mx-auto mt-12 md:mt-12 lg:mt-14 xl:mt-16 pt-5 lg:pb-6">
          <h2 className="text-3xl md:text-4xl lg:text-[2.8rem] font-bold text-base-content text-center">
-            Get In Touch
+            Kontaktujte mě
          </h2>
          <p className="text-base text-base-content/60 mt-4 md:max-w-[438px] w-full mx-auto text-center">
-         Whether you have a project to develop or simply fancy connnecting over a shared love for development, donˇt hesitate to reach out.
+         Ať už chcete realizovat nový projekt, nebo se se mnou chcete spojit jen tak v rámci společné lásky k životu a programování, neváhejte se ozvat.
          </p>
          <div className="flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-7 md:gap-6 mt-12">
             <div className="lg:col-span-5 bg-base-100 p-6 lg:p-10 rounded-xl w-full">
-               <h3 className="text-xl font-bold pb-6">Leave a Message</h3>
+               <h3 className="text-xl font-bold pb-6">Napište mi zprávu</h3>
                <form ref={form} onSubmit={sendEmail}>
                   <div className="flex flex-wrap lg:flex-nowrap items-center gap-6">
                      <div className="w-full">
                         <p className="text-sm text-base-content/80 pb-2">
-                           Name
+                           Jméno
                         </p>
                         <input
                            type="text" name="user_name" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12"
@@ -55,7 +55,7 @@ export const ContactUs = () => {
                   </div>
                   <div className="w-full py-5">
                      <p className="text-sm text-base-content/80 pb-2">
-                        Subject
+                        Předmět
                      </p>
                      <input
                         type="text" name="subject" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12"
@@ -63,7 +63,7 @@ export const ContactUs = () => {
                   </div>
                   <div className="w-full">
                      <p className="text-sm text-base-content/80 pb-2">
-                        Messages
+                        Zpráva
                      </p>
                      <textarea name="message" className="w-full bg-base-200 rounded-lg outline-none p-5 h-36 lg:h-52" />
                   </div>
@@ -71,7 +71,7 @@ export const ContactUs = () => {
                      type="submit" value="Send"
                      className="rounded-lg btn btn-primary text-base font-medium text-primary-content px-5 py-3 mt-6"
                   >
-                     Send Message
+                     Odeslat
                   </button>
                   {message && <p className="inline-block mx-3 text-base text-base-content/60 mt-4">{message}</p>}
                </form>
@@ -95,7 +95,7 @@ export const ContactUs = () => {
                   </div>
                   <div className="space-y-3">
                      <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">Country:</p>
+                        <p className="text-sm text-base-content">Země:</p>
                         <span className="text-sm text-base-content/60">
                            Czech Republic
                         </span>
@@ -107,13 +107,13 @@ export const ContactUs = () => {
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">City:</p>
+                        <p className="text-sm text-base-content">Město:</p>
                         <span className="text-sm text-base-content/60">
                            Klatovy
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">Street:</p>
+                        <p className="text-sm text-base-content">Ulice:</p>
                         <span className="text-sm text-base-content/60">
                            Vídeňská 1
                         </span>
@@ -184,13 +184,13 @@ export const ContactUs = () => {
                   </div>
                   <div className="space-y-3">
                      <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">Support:</p>
+                        <p className="text-sm text-base-content">Klientská podpora:</p>
                         <span className="text-sm text-base-content/60">
                            Mon-Fri 11am-3pm
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">Phone:</p>
+                        <p className="text-sm text-base-content">Telefon:</p>
                         <a href="tel:+420723513978"
                   className="text-sm text-base-content/60 hover:text-primary hover:duration-300 transition underl"
                >

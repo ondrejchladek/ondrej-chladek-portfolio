@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 const PortfolioCards = () => {
    const [portfolioData, setPortfolioData] = useState(data)
-   const [caregory, seCategory] = useState('All categories')
+   const [caregory, seCategory] = useState('Všechny kategorie')
 
    const filterData = (title: string) => {
       seCategory(title)
-      if (title === 'All categories') {
+      if (title === 'Všechny kategorie') {
          setPortfolioData(data)
       } else {
          const filterData = data.filter((item: any) => item.category === title)
@@ -65,19 +65,19 @@ export default PortfolioCards
 const portfolioMenu = [
    {
       id: 1,
-      title: 'All categories',
+      title: 'Všechny kategorie',
    },
    {
       id: 2,
-      title: 'Full Stack Development',
+      title: 'Full Stack programování',
    },
    {
       id: 3,
-      title: 'Web Templates',
+      title: 'Webové šablony',
    },
    {
       id: 4,
-      title: 'Branding',
+      title: 'Design UI/UX',
    },
 ]
 
@@ -85,64 +85,64 @@ const data = [
    {
       id: 1,
       src: '/partners.jpg',
-      category: 'Full Stack Development',
+      category: 'Full Stack programování',
       project: 'Blue Partners',
-      desc: 'A comprehensive web development project for the global Blue Partners venture.',
+      desc: 'Projekt vývoje back-endu a front-endu portálu společnosti Blue Partners.',
    },
    {
       id: 2,
       src: '/brainymonkey.jpg',
-      category: 'Full Stack Development',
+      category: 'Full Stack programování',
       project: 'Brainy Monkey',
-      desc: 'Complete web and application development for an innovative AI platform, Brainy Monkey.',
+      desc: 'Komplexní vývoj inovativní AI webové platformy Brainy Monkey.',
    },
    {
       id: 3,
       src: '/kadera.jpg',
-      category: 'Web Templates',
+      category: 'Webové šablony',
       project: 'Kadera Kovoplast',
-      desc: 'Development of front-end templates and user interface design for the Kadera Kovoplast website.',
+      desc: 'Tvorba šablon a návrh uživatelského rozhraní pro webové stránky společnosti Kadera Kovoplast.',
    },
    {
       id: 4,
       src: '/weilovna.jpg',
-      category: 'Web Templates',
+      category: 'Webové šablony',
       project: 'Weilovna',
-      desc: 'Coding and user-interface design for the Weilovna animal clinic.',
+      desc: 'Kódování a návrh uživatelského rozhraní pro veterinární kliniku Weilovna.',
    },
    {
       id: 5,
       src: '/retailys.jpg',
-      category: 'Full Stack Development',
+      category: 'Full Stack programování',
       project: 'Retailys',
-      desc: 'In-depth web software development for a leading online retail solutions provider.',
+      desc: 'Vývoj front-endu pro předního poskytovatele řešení pro internetové obchody Retailys s.r.o.',
    },
    {
       id: 6,
       src: '/atcspace.jpg',
-      category: 'Web Templates',
+      category: 'Webové šablony',
       project: 'ATC Space',
-      desc: 'Front-end coding and template creation for the ATC Space website.',
+      desc: 'Kódování front-endu a tvorba šablon pro webové stránky společnosti ATC Space s.r.o.',
    },
    {
       id: 7,
       src: '/grazia.jpg',
-      title: 'Full Stack Development',
+      title: 'Full Stack programování',
       project: 'Grazia Store',
-      desc: 'Complete online store development for a leading fashion brand, Grazia.',
+      desc: 'Kompletní vývoj internetového obchodu pro přední módní značku Grazia.',
    },
    {
       id: 8,
       src: '/skleniky.jpg',
-      category: 'Web Templates',
+      category: 'Webové šablony',
       project: 'Skleníky Pech',
-      desc: 'Creating front-end templates and user interface design for the Skleníky Pech website.',
+      desc: 'Návrh uživatelského rozhraní a výroba šablon webových stránek Skleníky Pech.',
    },
    {
       id: 9,
       src: '/astaxanthin.jpg',
-      category: 'Branding',
+      category: 'Design UI/UX',
       project: 'Astaxanthin',
-      desc: 'Developing the brand identity and digital assets for the Astaxanthin health supplement.',
+      desc: 'Tvorba UI/UX designu a digitálních aktiv pro doplněk stravy Astaxanthin.',
    },
 ]

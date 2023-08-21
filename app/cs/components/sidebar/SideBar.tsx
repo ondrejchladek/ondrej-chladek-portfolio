@@ -76,7 +76,7 @@ const SideBar = () => {
          </div>
          {/* Major Skill */}
          <div className="border-b border-base-content/10 py-6">
-            <p className="text-base text-base-content">Major Skills</p>
+            <p className="text-base text-base-content">Hlavní dovednosti</p>
             <div className="space-y-3 mt-5">
                {majorSkill.map((item, index) => (
                   <div key={index}>
@@ -102,7 +102,7 @@ const SideBar = () => {
          </div>
          {/* extra skills */}
          <div className="border-b border-base-content/10 py-6">
-            <p className="text-base text-base-content">Extra Skills</p>
+            <p className="text-base text-base-content">Něco dalšího k tomu</p>
             <div className="flex flex-wrap gap-2 mt-5">
                {extraSkills.map((item, index) => (
                   <p
@@ -207,15 +207,15 @@ const extraSkills = [
 
 const content = [
    {
-      title: 'City:',
-      value: 'Klatovy/Prague, CZ',
+      title: 'Město:',
+      value: 'Klatovy/Praha, ČR',
    },
    {
-      title: 'Freelance:',
-      value: 'Available',
+      title: 'Dostupnost:',
+      value: 'Příjem zakázek',
    },
    {
-      title: 'Language:',
+      title: 'Jazyky:',
       value: 'English (B2), Czech',
    },
 ]
