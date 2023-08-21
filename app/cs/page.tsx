@@ -31,7 +31,7 @@ export default function Home() {
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
                      {[
                         {
-                           id: 1, title: "Full Stack Development", data: [{
+                           id: 1, title: "Full stack development", data: [{
                               id: 1,
                               title: 'Front-end a back-end technologie, SSR, serverless architektura, nativní aplikace',
                            },
@@ -57,7 +57,7 @@ export default function Home() {
                         </svg>,
                         },
                         {
-                           id: 2, title: "UI/UX Design", data: [{
+                           id: 2, title: "UI/UX design", data: [{
                               id: 1,
                               title: 'Uživatelsko-centrický návrh designu',
                            },
