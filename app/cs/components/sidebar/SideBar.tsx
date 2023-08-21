@@ -48,7 +48,7 @@ const SideBar = () => {
          {/* info  */}
          <div className="border-b border-base-content/10 py-6 space-y-3">
             <div className="flex items-center justify-between">
-               <p className="text-sm text-base-content">E-mail</p>
+               <p className="text-sm text-base-content">E-mail:</p>
                <a
                   href="mailto: ondrejchladek@gmail.com"
                   className="text-sm text-base-content/60 hover:text-primary hover:duration-300 transition underl"
@@ -57,7 +57,7 @@ const SideBar = () => {
                </a>
             </div>
             <div className="flex items-center justify-between">
-               <p className="text-sm text-base-content">Telefon</p>
+               <p className="text-sm text-base-content">Telefon:</p>
                <a
                   href="tel:+420723513978"
                   className="text-sm text-base-content/60 hover:text-primary hover:duration-300 transition underl"
