@@ -91,7 +91,7 @@ export default function Home() {
                         {
                            id: 3, title: "Vývoj vebových aplikací", data: [{
                               id: 1,
-                              title: 'Analýza potřeb a návrh konceptu',
+                              title: 'Od analýzy potřeb a návrh konceptu aplikace',
                            },
                            {
                               id: 2,
@@ -129,7 +129,7 @@ export default function Home() {
                            },
                            {
                               id: 3,
-                              title: 'Řešení na míru dle vašich potřeb',
+                              title: 'Řešení na míru dle potřeb klienta',
                            }],
                            svg:<svg
                            width="32"
@@ -185,7 +185,7 @@ export default function Home() {
                            },
                            {
                               id: 2,
-                              title: 'Řešení pro Arduino na míru',
+                              title: 'Řešení na míru na platformě Arduino',
                            },
                            {
                               id: 3,
@@ -230,7 +230,7 @@ export default function Home() {
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Zkušenosti"
-                        description="Postupem let v oboru jsem získal zkušenosti s vývojem webových aplikací, UI/UX designem, řízením marketingu i programováním průmyslových automatizací, a to jak individuálně, tak jako součást týmu."
+                        description="Postupem let v oboru jsem získal zkušenosti s vývojem webových aplikací, UI/UX designem, řízením marketingu i programováním průmyslových automatizací, a to jak individuální tvorbou, tak jako součást týmu."
                      />
                   </div>
                   <Experience />
@@ -241,7 +241,7 @@ export default function Home() {
                      Portfolio
                   </h2>
                   <p className="md:max-w-[438px] text-center text-base text-base-content/60 mx-auto mt-4">
-                  Moje portfolio je rozmanité a obsahuje mnoho webových stránek a aplikací, většinu z nich jsem kódoval od samotného základu, a k tomu šablony vytvořené pomocí různých nástrojů pro design, jako například Figma.
+                  Moje portfolio je rozmanité a obsahuje řadu webových stránek a aplikací, z nichž většinu jsem kódoval od samotného základu, a k tomu šablony nakódované pomocí designových nástrojů, jako například Figma.
                   </p>
                   <PortfolioCards />
                </div>
