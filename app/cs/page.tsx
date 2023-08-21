@@ -11,9 +11,9 @@ import FlipCardWithHover from './components/flipCard/FlipCardWithHover'
 import SmallSubtitle from './components/subtitle/SmallSubtitle'
 
 export const metadata: Metadata = {
-   title: 'Ondřej Chládek',
+   title: 'Ondřej Chládek | Full Stack Developer',
    description:
-      'Full Stack Developer', 
+      'Website and Web App Development', 
 }
 
 export default function Home() {
