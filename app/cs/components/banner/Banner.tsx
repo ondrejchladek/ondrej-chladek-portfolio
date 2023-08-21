@@ -11,7 +11,7 @@ const Banner = () => {
                Vize přepsané<br />do precizního kódu
             </h1>
             <p className="mt-4 mb-6 xl:my-6 text-base xl:text-lg text-base-content/60 text-center md:text-start leading-6 xl:leading-7">
-            Jako Full Stack Developer a UI/UX designer se specializuji na tvorbu řešení na front-endu i back-endu se znalostí technologií React, Node.js, Tailwind a TypeScript.
+            Jako Full Stack Developer a UI/UX designer se specializuji na tvorbu aplikačních řešení pro front-end i back-end webů a webových aplikací se znalostí technologií React, Node.js, Tailwind a TypeScript.
             </p>
             <div className="flex items-center justify-center md:justify-start">
                <Link
