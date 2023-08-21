@@ -211,12 +211,12 @@ const content = [
       value: 'Klatovy/Prague, CZ',
    },
    {
-      title: 'Freelance:',
-      value: 'Available',
-   },
-   {
       title: 'Language:',
       value: 'English (B2), Czech',
+   },
+   {
+      title: 'Freelance:',
+      value: 'Available',
    },
 ]
 

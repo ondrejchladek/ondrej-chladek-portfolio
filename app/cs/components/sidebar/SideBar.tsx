@@ -57,7 +57,7 @@ const SideBar = () => {
                </a>
             </div>
             <div className="flex items-center justify-between">
-               <p className="text-sm text-base-content">Phone</p>
+               <p className="text-sm text-base-content">Telefon</p>
                <a
                   href="tel:+420723513978"
                   className="text-sm text-base-content/60 hover:text-primary hover:duration-300 transition underl"
@@ -211,12 +211,12 @@ const content = [
       value: 'Klatovy/Praha, ČR',
    },
    {
-      title: 'Dostupnost:',
-      value: 'Příjem zakázek',
-   },
-   {
       title: 'Jazyky:',
       value: 'English (B2), Czech',
+   },
+   {
+      title: 'Dostupnost:',
+      value: 'Příjem zakázek',
    },
 ]
 
