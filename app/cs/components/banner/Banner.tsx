@@ -8,7 +8,7 @@ const Banner = () => {
       <><div className="bg-[url('/bg.png')] bg-no-repeat bg-center bg-cover max-h-[492px] bg-base-100 p-6 sm:p-10 xl:pr-7 xl:pl-16 rounded-xl flex items-center justify-center md:justify-between">
          <div className="w-full md:max-w-[260px] lg:max-w-[425px]">
             <h1 className="max-w-[400px] text-4xl mx-auto sm:mx-auto md:mx-0 lg:text-5xl xl:text-[57px] font-semibold text-base-content text-center md:text-start leading-10 xl:!leading-[66px]">
-               Vize převedené<br />do precizního kódu
+               Vize převedené<br />do precizně ušitého kódu
             </h1>
             <p className="mt-4 mb-6 xl:my-6 text-base xl:text-lg text-base-content/60 text-center md:text-start leading-6 xl:leading-7">
             Jako Full Stack Developer a UI/UX designer se specializuji na tvorbu aplikačních řešení pro front-end i back-end webů a webových aplikací se znalostí technologií React, Node.js, Tailwind a TypeScript.
