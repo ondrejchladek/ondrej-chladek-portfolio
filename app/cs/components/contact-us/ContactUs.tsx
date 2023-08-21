@@ -186,7 +186,7 @@ export const ContactUs = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-base-content">Klientská podpora:</p>
                         <span className="text-sm text-base-content/60">
-                           Mon-Fri 11am-3pm
+                           Po-Pá 11:00-15:00
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
