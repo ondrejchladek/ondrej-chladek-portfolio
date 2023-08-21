@@ -33,7 +33,7 @@ export default function Home() {
                         {
                            id: 1, title: "Full Stack Development", data: [{
                               id: 1,
-                              title: 'Front-end and back-end technologie, SSR, serverless, nativní aplikace',
+                              title: 'Front-end a back-end technologie, SSR, serverless architektura, nativní aplikace',
                            },
                            {
                               id: 2,
@@ -91,7 +91,7 @@ export default function Home() {
                         {
                            id: 3, title: "Vývoj vebových aplikací", data: [{
                               id: 1,
-                              title: 'Od analýzy potřeb a návrh konceptu aplikace',
+                              title: 'Od analýzy potřeb a návrh konceptu aplikace po její spuštění',
                            },
                            {
                               id: 2,
@@ -129,7 +129,7 @@ export default function Home() {
                            },
                            {
                               id: 3,
-                              title: 'Řešení na míru dle potřeb klienta',
+                              title: 'Řešení na míru dle specifických potřeb klienta',
                            }],
                            svg:<svg
                            width="32"
