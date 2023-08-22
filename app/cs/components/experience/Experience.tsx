@@ -41,11 +41,11 @@ export default Experience
 
 const ExperienceData = [
    {
-      company: 'Retailys s.r.o.',
+      company: 'Retailys.com s.r.o.',
       time: 'Leden 2022 - nyní',
       post: 'Full stack vývojář',
       description:
-         'Na mé pozici full stack vývojáře ve společnosti Retailys s.r.o. se aktivně podílím na vývoji funkcionalit jak na front-endu, tak back-endu pomocí technologií React, Node.js, JavaScript, HTML, CSS a PHP a spolupracuji na výstavbě nejrůznějších uživatelských rozhraní. Tato pozice mi umožnila zapojit se do všech fází vývoje webových aplikací.',
+         'Na mé pozici full stack vývojáře ve společnosti Retailys.com s.r.o. se aktivně podílím na vývoji funkcionalit jak na front-endu, tak back-endu pomocí technologií React, Node.js, JavaScript, HTML, CSS a PHP a spolupracuji na výstavbě nejrůznějších uživatelských rozhraní. Tato pozice mi umožnila zapojit se do všech fází vývoje webových aplikací.',
    },
    {
       company: 'Inspirit Energy s.r.o.',

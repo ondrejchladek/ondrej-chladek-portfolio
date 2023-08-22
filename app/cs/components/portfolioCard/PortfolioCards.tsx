@@ -115,7 +115,7 @@ const data = [
       src: '/retailys.jpg',
       category: 'Full stack programování',
       project: 'Retailys',
-      desc: 'Vývoj front-endu pro předního poskytovatele řešení pro internetové obchody Retailys s.r.o.',
+      desc: 'Vývoj front-endu pro předního poskytovatele řešení pro internetové obchody Retailys.com s.r.o.',
    },
    {
       id: 6,
