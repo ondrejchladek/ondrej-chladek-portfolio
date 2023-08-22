@@ -25,7 +25,7 @@ export default function Home() {
                <div className="mb-10 xl:mb-12">
                   <SmallSubtitle
                      title="Moje služby"
-                     description="Poskytuji komplexní vývojářské služby, zahrnující programování front-end i back-end částí webových a mobilních aplikací včetně návrhu samotné aplikace a vhodného UI/UX designu. Pracuji s nejmodernějšími technologiemi, jako jsou React, Node.js, Next.js a TypeScript."
+                     description="Poskytuji komplexní služby v oblasti softwarového vývoje a serverových i klientských částí mobilních a webových aplikací včetně návrhu samotné aplikace a vhodného UI. Pracuji s nejmodernějšími technologiemi, jako jsou React, Node.js, Next.js a TypeScript."
                   />
                   {/* FlipCard section  */}
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">

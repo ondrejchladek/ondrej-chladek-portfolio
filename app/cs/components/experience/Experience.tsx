@@ -43,14 +43,14 @@ const ExperienceData = [
    {
       company: 'Retailys s.r.o.',
       time: 'Leden 2022 - nyní',
-      post: 'Full Stack vývojář',
+      post: 'Full stack vývojář',
       description:
          'Na mé pozici full stack vývojáře ve společnosti Retailys s.r.o. se aktivně podílím na vývoji funkcionalit jak na front-endu, tak back-endu pomocí technologií React, Node.js, JavaScript, HTML, CSS a PHP a spolupracuji na výstavbě nejrůznějších uživatelských rozhraní. Tato pozice mi umožnila zapojit se do všech fází vývoje webových aplikací.',
    },
    {
       company: 'Inspirit Energy s.r.o.',
       time: 'Leden 2016 - nyní',
-      post: 'Full Stack vývojář, UI/UX designer',
+      post: 'Full stack vývojář, UI/UX designer',
       description:
          'Použitím dovedností v JavaScriptu, Reactu, Node.js, Tailwind a PHP vytvářím intuitivní webová rozhraní, která na klientské straně zlepšují uživatelský zážitek a na serverové straně zajišťují robustní funkčnost, spolehlivost a bezpečnost. Ve své roli obvykle vedu projekt od počátečního návrhu až po konečné fáze nasazení a moje role spojuje využití mých technických znalostí, schopnosti řešení problémů a strategického plánování.',
    },

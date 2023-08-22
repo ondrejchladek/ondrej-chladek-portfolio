@@ -35,7 +35,7 @@ const SideBar = () => {
             Ondřej Chládek
          </h3>
          <p className="text-xs font-medium bg-primary/10 text-primary rounded-3xl px-3 w-fit mt-3 mx-auto py-1">
-            Full Stack Developer
+            Full stack vývojář
          </p>
          {/* social link  */}
          <div className="flex items-center justify-between bg-base-100 rounded-lg px-10 py-2 mt-5">
