@@ -69,7 +69,7 @@ const portfolioMenu = [
    },
    {
       id: 2,
-      title: 'Full Stack programování',
+      title: 'Full stack programování',
    },
    {
       id: 3,
@@ -85,14 +85,14 @@ const data = [
    {
       id: 1,
       src: '/partners.jpg',
-      category: 'Full Stack programování',
+      category: 'Full stack programování',
       project: 'Blue Partners',
       desc: 'Projekt vývoje back-endu a front-endu portálu společnosti Blue Partners.',
    },
    {
       id: 2,
       src: '/brainymonkey.jpg',
-      category: 'Full Stack programování',
+      category: 'Full stack programování',
       project: 'Brainy Monkey',
       desc: 'Komplexní vývoj inovativní AI webové platformy Brainy Monkey.',
    },
@@ -113,7 +113,7 @@ const data = [
    {
       id: 5,
       src: '/retailys.jpg',
-      category: 'Full Stack programování',
+      category: 'Full stack programování',
       project: 'Retailys',
       desc: 'Vývoj front-endu pro předního poskytovatele řešení pro internetové obchody Retailys s.r.o.',
    },
@@ -127,7 +127,7 @@ const data = [
    {
       id: 7,
       src: '/grazia.jpg',
-      title: 'Full Stack programování',
+      title: 'Full stack programování',
       project: 'Grazia Store',
       desc: 'Kompletní vývoj internetového obchodu pro přední módní značku Grazia.',
    },
