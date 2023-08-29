@@ -46,7 +46,7 @@ const SideBar = () => {
             ))}
          </div>
          {/* info  */}
-         <div className="border-b border-base-content/10 py-6 space-y-3">
+         <div className="border-b border-base-content/10 py-6 space-y-1.5">
             <div className="flex items-center justify-between">
                <p className="text-sm text-base-content">IČ:</p>
                <span className="text-sm text-base-content/60">
