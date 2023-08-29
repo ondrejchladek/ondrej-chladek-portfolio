@@ -48,6 +48,12 @@ const SideBar = () => {
          {/* info  */}
          <div className="border-b border-base-content/10 py-6 space-y-3">
             <div className="flex items-center justify-between">
+               <p className="text-sm text-base-content">IČ:</p>
+               <span className="text-sm text-base-content/60">
+                  02407604
+               </span>
+            </div>
+            <div className="flex items-center justify-between">
                <p className="text-sm text-base-content">E-mail:</p>
                <a
                   href="mailto: ondrejchladek@gmail.com"
