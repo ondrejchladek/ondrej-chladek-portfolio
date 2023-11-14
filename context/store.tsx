@@ -12,13 +12,13 @@ interface contextProps {
 }
 
 const GlobalContext = React.createContext<contextProps>({
-   theme: 'dark',
+   theme: 'light',
    setTheme: () => {},
    AllTheme: []
 })
 
 export const GlobalProvider = ({ children }: Props) => {
-   const [theme, setTheme] = React.useState('dark')
+   const [theme, setTheme] = React.useState('light')
    const AllTheme = [
       'light',
       'dark',
