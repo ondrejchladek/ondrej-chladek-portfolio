@@ -2,7 +2,7 @@
 const nextConfig = {
   // image optimization
   images: {
-     domains: ['https://www.ondrejchladek.cz/'],
+     domains: ['http://r004kgocck4004wkcgksssss.188.245.40.38.sslip.io'],
   },
 }
 
